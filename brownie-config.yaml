@@ -5,3 +5,11 @@ compiler:
   solc:
     remappings:
       - "@chainlink=smartcontractkit/chainlink-brownie-contracts@1.1.1"
+dotenv: .env
+networks:
+  goerli:
+    eth_usd_price_feed_address: "0x8F579932D0aE22710298088Af9772386d1BDB625"
+  kovan:
+  mainnet:
+wallets:
+  from_key: ${PRIVATE_KEY}
